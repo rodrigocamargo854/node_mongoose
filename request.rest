@@ -14,7 +14,18 @@ GET http://localhost:3000/api/services
 
 ###
 
-GET http://localhost:3000/api/services/650571c426738539ebba97ba
+GET http://localhost:3000/api/services/6505776c02b3020d58ef0e8f
 
 ###
 DELETE  http://localhost:3000/api/services/6505681e7d86656efcf2a943
+
+###
+PUT http://localhost:3000/api/services/6505776c02b3020d58ef0e8f
+Content-Type: application/json
+
+{
+    "name": "name",
+    "description":"edited description",
+    "price":1400,
+    "image":"https://images.unsplash.com/photo-1682695795255-b236b1f1267d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60"
+}
